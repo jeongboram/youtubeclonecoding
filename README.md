@@ -2,11 +2,11 @@
 ## Next js + Typescript initial setting 
 
 # Install Libraries
-npm install prettier --save-dev
-npm install eslint --save-dev
-npm install msw --save-dev
-npm install axios --save-dev
-npm install sass --save-dev
+  - npm install prettier --save-dev
+  - npm install eslint --save-dev
+  - npm install msw --save-dev
+  - npm install axios --save-dev
+  - npm install sass --save-dev
 
 # Scripts
 1. prettier 적용
