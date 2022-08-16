@@ -1,0 +1,12 @@
+/* init */
+@import '@styles/main.scss';
+
+.sample {
+	background-color: $primary-bg;
+	text-align: center;
+	padding: 10px 0;
+	margin: 50px 0;
+	h1 {
+		color: #fff;
+	}
+}

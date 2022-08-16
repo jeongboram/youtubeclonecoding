@@ -1,0 +1,16 @@
+/* init */
+@import '@styles/base/_normalize.scss';
+@import '@styles/base/_base.scss';
+
+/* library */
+// @import url('@styles/lib/');
+
+/* variables and mixins */
+@import '@styles/abstracts/_variables.scss';
+@import '@styles/abstracts/_mixin.scss';
+
+/* components */
+@import '@styles/components/modal.scss';
+
+/* pages */
+@import '@styles/pages/index.scss';
