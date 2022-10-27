@@ -10,7 +10,6 @@
 @import '@styles/abstracts/_mixin.scss';
 
 /* components */
-@import '@styles/components/modal.scss';
+@import '@styles/components/_modal.scss';
 
-/* pages */
-@import '@styles/pages/index.scss';
+@import '@styles/_ui.scss';

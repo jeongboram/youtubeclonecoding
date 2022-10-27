@@ -1,0 +1,65 @@
+/* init */
+
+html , body {
+	background-color: #333;
+}
+.header {
+	width: 100%; padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	h1 {
+		color: #fff;
+	}
+	.box-left {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		.my-info {
+			display: flex;
+			align-items: center; gap: 10px;
+			img {
+				display: block;width: 50px; height: 50px;
+				border-radius: 50%;
+			}
+			> div {
+				display: flex; flex-direction: column;
+				color: #fff;font-size: 13px;
+			}
+		}
+		.btn-login {
+			background-color: beige; padding: 5px 10px;
+			min-width: 70px; height: 40px; text-transform: uppercase;
+			border-radius: 5px; font-size: 14px;letter-spacing: 1px;
+		}
+	}
+}
+
+.contents-wrapper {
+	padding: 10px 20px;
+	color:#fff;
+}
+
+
+footer {
+	width: 100%; padding: 10px 20px;
+	display: flex; align-items: center; gap: 10px;
+	color:#ddd;
+	h1 {
+		font-size: 17px;
+	}
+	p {
+		font-size: 12px;
+	}
+}
+
+.section-video-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px 30px;
+	.box-thumbnail {
+		width: 20%;
+		img {
+			width: 100%;
+		}
+	}
+}

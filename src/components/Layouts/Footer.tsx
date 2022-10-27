@@ -2,9 +2,10 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<>
-			<h3>footer</h3>
-		</>
+		<footer>
+			<h1>Youtube</h1>
+			<p>copyright &copy; jeongboram 2022</p>
+		</footer>
 	);
 };
 
